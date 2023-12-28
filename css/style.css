@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+    height: 70px;
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log{
+    font-size: 1.6rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav li, a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav{
+    color: black;
+    font-weight: bold;
+}
+
+nav a {
+    color: black;
+}
+
+nav a::after{
+   content: " ";
+   display: block;
+   width: 50px;
+   height: 2px;
+   background-color: #B88E2F;
+
+}
+
+.content{
+    background-image: url(../img/scandinavian-interior-mockup-wall-decal-background\ 1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000;
+    height: 700px;
+    display: flex;
+    justify-content: end;
+    padding: 1.5rem;
+}
+
+.content-centro{
+    background-color: #FFF3E3;
+    width: 550px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 210px;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.content-centro p, h2{
+    margin: 5px;
+}
+
+.content-centro p{
+    font-weight: 500;
+}
+
+.content-centro h2{
+     font-size: 2rem;
+     color: #B88E2F;
+}
+
+button{
+    display: block;
+    width: fit-content;
+    outline: none;
+    border: none;
+    background-color: #B88E2F;
+    margin: 6px;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+button:hover{
+    background-color: black;
+    letter-spacing: 2px;
+}
