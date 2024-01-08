@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Loja Rufino</title>
@@ -127,23 +129,102 @@
 
 
         </section>
+
+        <section class="central">
+            <div class="sub-titulo">
+                <h2>Precisa de ajuda?</h2>
+            </div>
+
+            <div class="ajuda">
+                <div class="bootom">
+                    <img src="./svg/phone-solid (1).svg" alt="telefone">
+                    <h3>Ligue no 0900 321 4400</h3>
+                    <img src="./svg/arrow-right-solid (1).svg" alt="seta direita">
+                </div>
+
+                <div class="bootom">
+                    <img class="lithis" src="./svg/whatsapp (1).svg" alt="telefone">
+                    <h3>Compre pelo whatsapp</h3>
+                    <img src="./svg/arrow-right-solid (1).svg" alt="seta direita">
+                </div>
+
+                <div class="bootom">
+                    <img src="./svg/headphones-solid (1).svg" alt="telefone">
+                    <h3>Central de atendimento</h3>
+                    <img src="./svg/arrow-right-solid (1).svg" alt="seta direita">
+                </div>
+            </div>
+        </section>
         
     </main>
 
     <footer>
-        <div class="footer-container">
-        <div class="footer">
-            <h2>inscreva-se para receber as últimas notícias sobre nós</h2>
-            <p>recomendamos que você assine nosso jornal. digite seu e-mail para receber nossas atualizações diárias sobre nós</p>
+      <section class="foot-headeer">
+        <div class="footeer">
+            <h2>CADASTRE-SE E RECEBA OFERTAS</h2>
+            <h2>  COM PREÇOS EXCLUSIVOS</h2>
+            <p>seja sempre o primeiro a receber nossas novidades, cadastre-se, é grátis!</p>
         </div>
 
-        <div class="footer_form">
-           <form action="/">
-            <input type="email" name="email" placeholder="Digite seu e-mail">
-            <button>Escreva-se</button>
-           </form>
+        <div class="container">
+      
+            <form id="form" class="form">
+              <div class="form-control">
+                <label for="username">Nome de usuário</label>
+                <input
+                  type="text"
+                  id="username"
+                  placeholder="Digite seu nome de usuário..."
+                />
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+              </div>
+      
+              <div class="form-control">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" placeholder="Digite seu email.." />
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de error</small>
+              </div>
+      
+              <div class="form-control">
+                <label for="password">Senha</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Digite sua senha..."
+                />
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+              </div>
+      
+              <div class="form-control">
+                <label for="password-confirmation">Confirmação de senha</label>
+                <input
+                  type="password"
+                  id="password-confirmation"
+                  placeholder="Digite sua senha novamente..."
+                />
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+              </div>
+      
+              <button type="submit">Enviar</button>
+            </form>
+          
         </div>
-    </div>
+      
+          <script
+            src="https://kit.fontawesome.com/f9e19193d6.js"
+            crossorigin="anonymous"
+          ></script>
+      
+          <script src="./scripts.js"></script>
+        </section>
     </footer>
 
     <script src="script.js"></script>
