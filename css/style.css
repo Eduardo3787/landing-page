@@ -533,13 +533,13 @@ footer{
     width: 100%;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .clarron{
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     padding: 1rem;
     letter-spacing: 2px;
     font-weight: 600;
