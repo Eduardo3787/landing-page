@@ -14,6 +14,17 @@ sr.reveal('.content', {
     rotate: { x: 0, y: 80, z: 0},
     duration: 3000
 });
+
+sr.reveal('footer', {
+  rotate: { x: 0, y: 80, z: 0},
+  duration: 3000
+});
+
+sr.reveal('.container-final', {
+  rotate: { x: 0, y: 80, z: 0},
+  duration: 3000
+});
+
 sr.reveal('.accessor', {
     rotate: { x: 0, y: 80, z: 0},
     duration: 3000
