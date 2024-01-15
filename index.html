@@ -6,7 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="script.js" defer></script>
     <title>Loja Rufino</title>
 </head>
 <body>
@@ -24,7 +26,7 @@
         </nav>
     </header>
 
-    <main>
+<main>
         <section class="content">
             <div class="content-centro">
                 <p>Novas tendências</p>
@@ -40,23 +42,38 @@
             <p>Confira cada detalhes dos nossos móveis planejados</p>
         </div>
 
-        <section class="accessor">
-            <div class="division">
-                <img src="./img/image 101.png" alt="foto">
-                <p> Decoração para varanda de quartos</p>
+    <section class="inovo"> 
+         <div class="container">
+        <div class="slider-wrapper">
+            <button id="prev-slide"  class="slide-button  material-symbols-outlined">
+                chevron_left
+                </button>
+            <div class="image-list">
+               <img src="./img/pickawood-rwa0Yh38FeA-unsplash.jpg" alt="icone" class="image-item">
+               <img src="./img/carrie-hays-mdLoaKr9vt8-unsplash.jpg" alt="icone" class="image-item">
+               <img src="./img/curology-6CJg-fOTYs4-unsplash.jpg" alt="icone" class="image-item">
+               <img src="./img/sandra-rei-O1dDKmhedWc-unsplash.jpg" alt="icone" class="image-item">
+               <img src="./img/di_an_h-g_8MrEZAvyE-unsplash.jpg" alt="icone" class="image-item">
+               <img src="./img/image 4.png" alt="icone" class="image-item">
+               <img src="./img/image 100.png" alt="icone" class="image-item">
+               <img src="./img/spacejoy-c0JoR_-2x3E-unsplash.jpg" alt="icone" class="image-item">
+               <img src="./img/spacejoy-EPPbKZPN0rU-unsplash.jpg" alt="icone" class="image-item">
+               <img src="./img/spacejoy-RqO6kwm4tZY-unsplash.jpg" alt="icone" class="image-item">
             </div>
-
-            <div class="division">
-                <img src="./img/image 106.png" alt="foto">
-                <p>Decoração para mesa de jantar</p>
+            <button id="next-slide"  class="slide-button  material-symbols-outlined">
+                chevron_right
+                </button>
+        </div>
+        <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
             </div>
+        </div>
+     </div>
+   </section>
 
-            <div class="division">
-                <img src="./img/image 100.png" alt="foto">
-                <p>Decoração para Sala de estar</p>
-            </div>
-        </section>
 
+       
         <section>
             <div class="sub-titulo">
                 <h2>
@@ -94,14 +111,14 @@
             </div>
 
             <div>
-                <img src="./img/image 9.png" alt="Grifo">
+                <img src="./img/image 6.png" alt="Grifo">
                 <h4>Grifo</h4>
                 <p>Night lamp</p>
                 <h4>R$ 1.500.000</h4>
             </div>
 
             <div>
-                <img src="./img/image 6.png" alt="Muggo">
+                <img src="./img/image 8 (1).png" alt="Muggo">
                 <h4>Muggo</h4>
                 <p>Small mug</p>
                 <h4>R$ 150.000</h4>
@@ -121,12 +138,11 @@
                 <h4>R$ 600.000</h4>
             </div>
 
-            
-
             <a href="#" class="btn"><span>Comprar agora</span></a>
 
-        </div>
+           
 
+        </div>
 
         </section>
 
@@ -166,7 +182,7 @@
             <p>seja sempre o primeiro a receber nossas novidades, cadastre-se, é grátis!</p>
         </div>
 
-        <div class="container">
+        <div class="container-formulario">
       
             <form id="form" class="form">
               <div class="form-control">
@@ -299,13 +315,13 @@
         </div>
 
         <div class="cartoes">
-           <img src="./svg/mastercard-2.svg" alt="mastercard">
-            <img src="./svg/paypal.svg" alt="paypal">
-            <img src="./svg/Visa_2014.svg" alt="visa">
+           <img src="./img/mastercard-2.svg" alt="mastercard">
+            <img src="./img/paypal.svg" alt="paypal">
+            <img src="./img/Vector (5).png" alt="visa">
         </div>
     </section>
 </footer>
 
-    <script src="script.js"></script>
+
 </body>
 </html>
