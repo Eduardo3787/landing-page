@@ -332,12 +332,40 @@ a:hover::after {
   bottom: -10px;
 }
 
+.products h4 p {
+  padding: 1rem;
+}
+
 .products{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   margin-top: 3rem;
+}
+
+.pointer-river{
+  position: relative;
+  width: 17rem;
+  height: 300px;
+   overflow: hidden;
+}
+
+.pointer-river::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #71a84470;
+  transition: height 0.5s ease-in-out;
+  opacity: 9;
+}
+
+.pointer-river:hover::before{
+  opacity: 1;
+  height: 100%;
 }
 
 footer{
@@ -457,6 +485,15 @@ footer{
   max-width: 100%;
   overflow: hidden;
   min-height: 36vh;
+}
+
+.header{
+  font-family: 'roboto';
+  padding: 10px;
+}
+
+i{
+ margin-top: -7px;
 }
 
 .form{
